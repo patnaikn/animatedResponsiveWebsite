@@ -11,6 +11,11 @@
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet/css" href="css/animate.css" /> <!-- allows to delay the animation untill we get down to that section -->
+    <link rel="stylesheet/css" href="css/waypoints.css" />
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="js/waypoints.js" type="text/javascript"></script>
+
 </head>
 <body>
 <header>
@@ -70,98 +75,161 @@
 <!--- End Slider -->
 
 <div class="clearfix"></div>
-<div id="inner-wrapper">
-    <section class="one-third">
-        <div class="circle">
-            <td><i class="fa fa-users"></i></td>
+
+<!-- start of waypoints delayed animation-->
+
+    <section class="staggered-animation-container">
+
+        <div id="inner-wrapper">
+
+            <section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay="0.3s">
+                <section class="one-third">
+                    <div class="circle">
+                        <td><i class="fa fa-users"></i></td>
+                    </div>
+                    <h3>Grade A Staff</h3>
+                    <p>Most people who end up being successful have good grades, but it's orthogonal - there's no extra
+                        information than if they put together a website and have bunch of fans who love coming and
+                        seeing
+                        what
+                        they're doing.</p>
+                </section>
+            </section>
+
+            <section class="os-animation" data-os-animation="fadeInDownSmall" data-os-animation-delay="0.3s">
+                <section class="one-third">
+                    <div class="circle">
+                        <td><i class="fa fa-map-marker"></i></td>
+                    </div>
+                    <h3>A Convenient Location</h3>
+                    <p>Most people who end up being successful have good grades, but it's orthogonal - there's no extra
+                        information than if they put together a website and have bunch of fans who love coming and
+                        seeing
+                        what
+                        they're doing.</p>
+                </section>
+            </section>
+
+            <section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay="0.3s">
+                <section class="one-third">
+                    <div class="circle">
+                        <td><i class="fa fa-check-square-o"></i></td>
+                    </div>
+                    <h3>Check us out - free!</h3>
+                    <p>Most people who end up being successful have good grades, but it's orthogonal - there's no extra
+                        information than if they put together a website and have bunch of fans who love coming and
+                        seeing
+                        what
+                        they're doing.</p>
+                </section>
+            </section>
+
+            <div class="clearfix"></div>
+
+            <section class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.3s">
+                <article>
+                    <img src="https://www.w3newbie.com//wp-content/uploads/gym-classes.png" class="circle-image">
+                </article>
+            </section>
+
+            <section class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.3s">
+                <aside>
+                    <h3>Our Facility</h3>
+                    <br>
+                    <ul class="gym">
+                        <li><h4>Unlimited wifi connnection</h4></li>
+                        <li><h4>member music requests &amp; voting</h4></li>
+                        <li><h4>open 24 hours/7 days a week</h4></li>
+                        <li><h4>cardio machine movie theatre</h4></li>
+                    </ul>
+                </aside>
+            </section>
+
+            <div class="clearfix"></div>
+
+            <section class="os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.3s">
+                <section class="one-third">
+                    <h3>Ladies Section</h3>
+                    <img src="https://www.w3newbie.com//wp-content/uploads/ladies-gym.jpg">
+                    <p>If you are successful, you will be cloned. That's life. In fact, it's a sign that you've made it
+                        when
+                        clones of your website, mobile app, and business start cropping up</p>
+                </section>
+            </section>
+
+            <section class="os-animation" data-os-animation="bounceInDown" data-os-animation-delay="0.3s">
+                <section class="one-third">
+                    <h3>the gym floor</h3>
+                    <img src="https://www.w3newbie.com//wp-content/uploads/gym-floor.jpg">
+                    <p>If you are successful, you will be cloned. That's life. In fact, it's a sign that you've made it
+                        when
+                        clones of your website, mobile app, and business start cropping up</p>
+                </section>
+            </section>
+
+            <section class="os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0.3s">
+                <section class="one-third">
+                    <h3>free weights</h3>
+                    <img src="https://www.w3newbie.com//wp-content/uploads/free-weights.jpg">
+                    <p>If you are successful, you will be cloned. That's life. In fact, it's a sign that you've made it
+                        when
+                        clones of your website, mobile app, and business start cropping up</p>
+                </section>
+            </section>
+
+            <!--End of inner wrapper-->
+
         </div>
-        <h3>Grade A Staff</h3>
-        <p>Most people who end up being successful have good grades, but it's orthogonal - there's no extra information than if they put together a website and have bunch of fans who love coming and seeing what they're doing.</p>
-    </section>
-    <section class="one-third">
-        <div class="circle">
-            <td><i class="fa fa-map-marker"></i></td>
-        </div>
-        <h3>A Convenient Location</h3>
-        <p>Most people who end up being successful have good grades, but it's orthogonal - there's no extra information than if they put together a website and have bunch of fans who love coming and seeing what they're doing.</p>
-    </section>
-    <section class="one-third">
-        <div class="circle">
-            <td><i class="fa fa-check-square-o"></i></td>
-        </div>
-        <h3>Check us out - free!</h3>
-        <p>Most people who end up being successful have good grades, but it's orthogonal - there's no extra information than if they put together a website and have bunch of fans who love coming and seeing what they're doing.</p>
-    </section>
-    <div class="clearfix"></div>
-    <article>
-        <img src="https://www.w3newbie.com//wp-content/uploads/gym-classes.png" class="circle-image">
-    </article>
-    <aside>
-        <h3>Our Facility</h3>
-        <br>
-        <ul class="gym">
-            <li><h4>Unlimited wifi connnection</h4></li>
-            <li><h4>member music requests &amp; voting</h4></li>
-            <li><h4>open 24 hours/7 days a week</h4></li>
-            <li><h4>cardio machine movie theatre</h4></li>
-        </ul>
-    </aside>
-    <div class="clearfix"></div>
-    <section class="one-third">
-        <h3>Ladies Section</h3>
-        <img src="https://www.w3newbie.com//wp-content/uploads/ladies-gym.jpg">
-        <p>If you are successful, you will be cloned. That's life. In fact, it's a sign that you've made it when clones of your website, mobile app, and business start cropping up</p>
-    </section>
-    <section class="one-third">
-        <h3>the gym floor</h3>
-        <img src="https://www.w3newbie.com//wp-content/uploads/gym-floor.jpg">
-        <p>If you are successful, you will be cloned. That's life. In fact, it's a sign that you've made it when clones of your website, mobile app, and business start cropping up</p>
-    </section>
-    <section class="one-third">
-        <h3>free weights</h3>
-        <img src="https://www.w3newbie.com//wp-content/uploads/free-weights.jpg">
-        <p>If you are successful, you will be cloned. That's life. In fact, it's a sign that you've made it when clones of your website, mobile app, and business start cropping up</p>
-    </section>
-</div>
-<!--End of inner wrapper-->
-<div class="clearfix"></div>
-<footer>
-    <div id="footer-wrapper">
-        <section class="one-third" id="footer-third">
-            <h3>contact</h3>
-            <p class="footer-contact">The Gym<br>
-                <b class="phone">555-525-5005</b><br><br>
-                500 Washington Road<br>
-                Seattle, WA98101<br>
-            </p>
-        </section>
-        <section class="one-third" id="footer-third">
-            <h3>social</h3>
-            <br>
-            <ul class="social">
-              <li><a href="#" target="_blank"><i class="fa fa-facebook"</a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-google-plus"</a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-youtube"</a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-twitter"</a></li>
-            </ul>
-        </section>
-        <section class="one-third" id="footer-third-last">
-            <h3>pages</h3>
-            <br>
-            <h5>
-                <a href="index.html">home</a>
-                <a href="#">about</a>
-                <a href="#">facilities</a>
-                <a href="#">pricing</a>
-                <a href="#">contact</a>
-            </h5>
+
+        <div class="clearfix"></div>
+
+        <section class="os-animation" data-os-animation="zoomInDown" data-os-animation-delay="0.3s">
+
+            <footer>
+                <div id="footer-wrapper">
+                    <section class="one-third" id="footer-third">
+                        <h3>contact</h3>
+                        <p class="footer-contact">The Gym<br>
+                            <b class="phone">555-525-5005</b><br><br>
+                            500 Washington Road<br>
+                            Seattle, WA98101<br>
+                        </p>
+                    </section>
+                    <section class="one-third" id="footer-third">
+                        <h3>social</h3>
+                        <br>
+                        <ul class="social">
+                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </section>
+                    <section class="one-third" id="footer-third-last">
+                        <h3>pages</h3>
+                        <br>
+                        <h5>
+                            <a href="index.html">home</a> -
+                            <a href="#">about</a> -
+                            <a href="#">facilities</a> -
+                            <a href="#">pricing</a> -
+                            <a href="#">contact</a>
+                        </h5>
+                    </section>
+
+                </div>
+            </footer>
+
+            <footer class="footer-last">
+                <p>&copy; The Gym, 2017. </p>
+            </footer>
+
         </section>
 
-    </div>
-</footer>
-<footer class="footer-last">
-    <p>&copy; The Gym, 2017. </p>
-</footer>
+    </section>
+
+<!--- end of waypoints delayed animation -->
+
 <br>
 </body>
 </html>
